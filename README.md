@@ -3,14 +3,13 @@
 A responsive and modern landing page for a fictional law firm called **Ventura Legal Solutions**. Built using HTML, CSS, and Font Awesome icons.
 
 ## 🔗 Live Preview
-*Coming Soon* (Add link when hosted)
+*Coming Soon*
 
 ## 📁 Features
 - Fully responsive header with navigation menu
 - Appointment booking popup form
 - Practice areas section with icons
 - Attorney introduction and testimonials
-- Frequently asked questions (FAQs)
 - Clean and semantic HTML structure
 
 ## 🛠️ Technologies Used
@@ -19,7 +18,7 @@ A responsive and modern landing page for a fictional law firm called **Ventura L
 - Font Awesome
 
 ## 📷 Screenshots
-*Add screenshots of the home page, appointment form, etc.*
+
 
 ## 🚀 How to Use
 1. Clone the repository:

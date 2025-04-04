@@ -21,7 +21,7 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 2px solid aqua;
+  /* outline: 2px solid aqua; */
   box-sizing: border-box;
 }
 
@@ -978,7 +978,7 @@ input{
   padding: 50px 80px 70px;
   margin-bottom: 50px;
   background-color: var(--color11);
-  border: 1px dashed blue;
+  /* border: 1px dashed blue; */
 }
 
 form.about-form,
@@ -998,7 +998,7 @@ form{
   align-items: stretch;
   /* padding-top: 20px; */
   padding-bottom: 20px;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 .about-left-name{
@@ -1041,7 +1041,7 @@ form{
   background-color: var(--color1);
   width: 30%;
   padding: 40px 20px;
-  border: 1px dashed blue;
+  /* border: 1px dashed blue; */
 }
 
 .about-right h3{
@@ -1079,6 +1079,29 @@ form{
   font-size: 16px;
   font-weight: 300;
   line-height: 27.2px
+}
+
+@media(max-width:768px){
+  .section7{
+    position: relative;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: flex-start;
+    padding: 50px 80px 70px;
+    margin-bottom: 50px;
+    background-color: var(--color11);
+    /* border: 1px dashed blue; */
+  }
+
+  form{
+    width: 100%;
+  }
+
+  .about-right{
+    width: 100%;
+  }
 }
 /*SECTION7*/
 
