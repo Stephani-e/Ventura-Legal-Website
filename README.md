@@ -20,7 +20,7 @@ A responsive and modern landing page for a fictional law firm called **Ventura L
 ## Project Structure
 
 - `pages/` – All individual HTML pages for the site.
-- `styling/` – Global and page-specific CSS files.
+- `style/` – Global and page-specific CSS files.
 - `Images/` – Logo, hero images, and other visual assets.
 
 ## Getting Started
