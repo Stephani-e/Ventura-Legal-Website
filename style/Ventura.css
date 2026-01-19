@@ -52,15 +52,15 @@ body {
   background-color: var(--color3);
   padding: 20px 50px;
   flex-wrap: wrap;
-  box-shadow: 0px 10px 10px -5px var(--color6);
+  box-shadow: 0 10px 10px -5px var(--color6);
   z-index: 1000;
 }
 
 .header p {
-  font-family: var(--font-primary);
-  font-size: 27.2px;
+  font-family: var(--font-primary), serif;
+  font-size: 27px;
   font-weight: 900;
-  line-height: 46.24px;
+  line-height: 46px;
   color: var(--color2);
 }
 
@@ -77,8 +77,8 @@ body {
   color: var(--color5);
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
-  font-family: var(--font-primary);
+  line-height: 27px;
+  font-family: var(--font-primary), serif;
 }
 
 .header .pageNav .NavLinks > li > a:hover {
@@ -98,7 +98,7 @@ body {
   min-width: 185px;
   list-style: none;
   z-index: 1000;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -126,7 +126,7 @@ body {
   transition: background-color 0.3s ease;
   text-decoration: none;
   color: var(--color2);
-  font: var(--primary-font);
+  font: var(--font-primary);
   font-weight: 300;
 }
 
@@ -160,7 +160,7 @@ body {
     padding-left: 20px;
     padding-right: 0;
     flex-wrap: wrap;
-    box-shadow: 0px 10px 10px -5px var(--color6);
+    box-shadow: 0 10px 10px -5px var(--color6);
   }
 
   .header .menu-icon{
@@ -183,7 +183,7 @@ body {
     background-color: var(--color1);
     padding: 15px;
     gap: 15px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     z-index: 1001;
   }
 
@@ -236,7 +236,7 @@ body {
 /*SECTION1*/
 .section-body{
   position: relative;
-  background-image: url(images/hero_bg_1.jpg);
+  background-image: url(/images/hero_bg_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60% center;
@@ -260,7 +260,7 @@ body {
 
 .section-body-left .h{
   align-items: center;
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   font-size: 50px;
   font-weight: 900;
   line-height: 60px;
@@ -268,10 +268,10 @@ body {
 }
 
 .section-body-left .p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
 }
 
 .section-body-right{
@@ -378,7 +378,7 @@ input{
   min-height: 120vh;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0;
   justify-content: space-around;
   align-items: center;
   padding: 50px 80px;
@@ -394,9 +394,9 @@ input{
 }
 
 .section2-head h3{
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   font-size: 32px;
-  line-height: 38.4px;
+  line-height: 38px;
   font-weight: 300;
   color: var(--color6);
 }
@@ -446,7 +446,7 @@ input{
   background-color: var(--color1);
   padding: 60px 20px 20px;
   width: 300px;
-  box-shadow: 0px 10px 10px -5px var(--color6);
+  box-shadow: 0 10px 10px -5px var(--color6);
 }
 
 .section2-card.center{
@@ -496,19 +496,19 @@ input{
 }
 
 .section2-card h3{
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color2);
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 24px;
 }
 
 .section2-card p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color10);
   font-size: 14px;
-  font-weight: 300px;
-  line-height: 23.8px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 @media(max-width:768px){
@@ -575,16 +575,16 @@ input{
   font-size: 28px;
   font-weight: 300;
   line-height: 33.6px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color6);
 }
 
 .section3-text p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color6);
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
 }
 
 .section3-text .open-button {
@@ -632,11 +632,11 @@ input{
 }
 
 .section4 h3{
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color6);
   font-size: 32px;
   font-weight: 700;
-  line-height: 38.4px;
+  line-height: 38px;
   margin: 0;
 }
 
@@ -654,7 +654,7 @@ input{
   padding: 35px 25px;
   background-color: var(--color1);
   border-radius: 30px;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .section4-customers-card .info{
@@ -670,28 +670,28 @@ input{
 }
 
 .section4-customers-card .info .info-info h4{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color6);
   font-size: 16px;
   font-weight: 300;
-  line-height: 20.8px
+  line-height: 21px
 }
 
 .section4-customers-card .info .info-info p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color9);
   font-size: 16px;
   font-weight: 300;
-  line-height: 20.8px
+  line-height: 21px
 }
 
 .section4-customers-card p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color6);
   width: fit-content;
   font-size: 16px;
   font-weight: 300;
-  line-height: 25.6px
+  line-height: 26px
 }
 
 @media(max-width:768px){
@@ -715,7 +715,7 @@ input{
 
   .section4-customers-card:hover{
     transform: scale(1.05) translateY(-10px);
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
   }
 }
 /*SECTION4*/
@@ -729,7 +729,7 @@ input{
   gap: 50px;
   align-items: flex-start;
   padding: 50px 80px 70px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-color: var(--color1);
 }
 
@@ -756,17 +756,17 @@ input{
 .section5-left-content h3{
   font-size: 32px;
   font-weight: 300;
-  line-height: 38.4px;
-  font-family: var(--font-secondary);
+  line-height: 38px;
+  font-family: var(--font-secondary), serif;
   color: var(--color6);
 }
 
 .section5-left-content p, .section5-left-content ul{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color6);
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
 }
 
 .section5-left-content ul{
@@ -789,7 +789,7 @@ input{
 
 .dropdown-title {
   cursor: pointer;
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color10);
   font-size: 16px;
   font-weight: 400;
@@ -803,10 +803,10 @@ input{
 }
 
 .dropdown-content {
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
   color: var(--color12);
   background-color: var(--color11);
   margin-top: 10px;
@@ -861,11 +861,11 @@ input{
 }
 
 .section6 h3{
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color6);
   font-size: 32px;
   font-weight: 700;
-  line-height: 38.4px;
+  line-height: 38px;
   margin: 0;
 }
 
@@ -888,7 +888,7 @@ input{
   background-color: var(--color1);
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .section6-customers-card img{
@@ -899,7 +899,6 @@ input{
   width: 90px;
   height: 70px;
   border-radius: 50%;
-  width: 70px;
 }
 
 .section6-customers-card .info{
@@ -912,23 +911,23 @@ input{
 
 .section6-customers-card .info h4{
   color: var(--color9);
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   font-size: 16px; 
   font-weight: 300; 
-  line-height: 27.2px
+  line-height: 27px
 }
 
 .section6-customers-card .info h5{
   color: var(--color6);
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   font-size: 22px; 
   font-weight: 300; 
-  line-height: 26.4px
+  line-height: 26px
 }
 
 .section6-customers-card .info p{
   color: var(--color6);
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   font-size: 16px; 
   font-weight: 300; 
   line-height: 27.2px
@@ -954,14 +953,14 @@ input{
     background-color: var(--color1);
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform-origin: center center;
   }
 
   .section6-customers-card:hover{
     transform: scale(1.05) translateY(-10px);
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -1048,15 +1047,15 @@ form{
   color: var(--color2);
   font-size: 28px;
   font-weight: 300;
-  line-height: 33.6px;
+  line-height: 34px;
 }
 
 .about-right h3{
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   color: var(--color2);
   font-size: 28px;
   font-weight: 300;
-  line-height: 33.6px;
+  line-height: 34px;
 }
 
 .about-right-info{
@@ -1066,7 +1065,7 @@ form{
 }
 
 .about-right-info h4{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color2);
   font-size: 16px;
   font-weight: 300;
@@ -1074,11 +1073,11 @@ form{
 }
 
 .about-right-info p{
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   color: var(--color6);
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px
+  line-height: 27px
 }
 
 @media(max-width:768px){
@@ -1108,7 +1107,7 @@ form{
 
 /*FOOTER*/
 footer {
-  background-image: url(images/hero_bg_footer.jpg);
+  background-image: url(/images/hero_bg_footer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 70px 90px;
@@ -1144,10 +1143,10 @@ footer {
 
 .foot1 h4, .foot2 h4{
   color: var(--color1);
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 19.2px;
+  line-height: 19px;
 }
 
 .foot1-content{
@@ -1158,10 +1157,10 @@ footer {
 
 .foot1 p{
   color: var(--color1);
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
 }
 
 .foot1-icons{
@@ -1204,10 +1203,10 @@ footer {
 
 .end p{
   color: var(--color1);
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 27.2px;
+  line-height: 27px;
   text-align: center;
 }
 
