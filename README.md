@@ -3,7 +3,7 @@
 A responsive and modern landing page for a fictional law firm called **Ventura Legal Solutions**. Built using HTML, CSS, and Font Awesome icons.
 
 ## 🔗 Live Preview
-*Coming Soon*
+🔗 Live Demo: https://ventura-legal-website.vercel.app/
 
 ## 📁 Features
 - Fully responsive header with navigation menu
@@ -17,10 +17,17 @@ A responsive and modern landing page for a fictional law firm called **Ventura L
 - CSS3
 - Font Awesome
 
-## 📷 Screenshots
+## Project Structure
 
+- `pages/` – All individual HTML pages for the site.
+- `styling/` – Global and page-specific CSS files.
+- `Images/` – Logo, hero images, and other visual assets.
 
-## 🚀 How to Use
+## Getting Started
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ventura-legal-site.git
+   git clone https://github.com/Stephani-e/Ventura-Legal-Website.git
+2. Open the project folder.
+3. Open index.html in your browser (or use a simple live server extension in VS Code).
+
