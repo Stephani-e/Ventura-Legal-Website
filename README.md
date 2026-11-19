@@ -3,7 +3,7 @@
 A responsive and modern landing page for a fictional law firm called **Ventura Legal Solutions**. Built using HTML, CSS, and Font Awesome icons.
 
 ## Live Preview
-🔗 Live Demo: https://ventura-legal-website.vercel.app/
+🔗 Live Demo: https://ventura-legal-website-sga.vercel.app/
 
 ## Features
 - Fully responsive header with navigation menu
